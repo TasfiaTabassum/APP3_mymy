@@ -13,21 +13,21 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="MYMY"
-        android:textColor="@color/black"
         android:layout_below="@+id/lottie"
         android:gravity="center"
         android:textSize="36sp"
         android:textStyle="bold"
+        android:textColor="#466ff4"
         android:fontFamily="sans-serif-condensed-medium"
         android:layout_margin="20dp"/>
 
     <com.airbnb.lottie.LottieAnimationView
         android:id="@+id/lottie"
-        android:layout_width="200dp"
-        android:layout_height="200dp"
-        app:lottie_rawRes="@raw/lock"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_centerInParent="true"
         app:lottie_autoPlay="true"
         app:lottie_loop="true"
-        android:layout_centerInParent="true"/>
+        app:lottie_rawRes="@raw/lock1" />
 
 </RelativeLayout>
