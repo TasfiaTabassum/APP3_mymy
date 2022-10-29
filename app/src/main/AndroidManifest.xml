@@ -17,6 +17,13 @@
         android:theme="@style/Theme.Mymy"
         tools:targetApi="31">
         <activity
+            android:name=".pattern_lock"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name=".splash_screen"
             android:exported="true">
             <intent-filter>
@@ -24,6 +31,7 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
@@ -52,8 +60,6 @@
         <activity
             android:name=".logIn"
             android:exported="false">
-
-
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />

@@ -66,10 +66,6 @@ public class app_privacy_setting extends AppCompatActivity {
             appModelList.add( new appModel(name, icon, 0, packname));
 
 
-
-
-
-
         }
         adapter.notifyDataSetChanged();
         progressDialog.dismiss();
