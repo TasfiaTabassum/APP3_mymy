@@ -10,7 +10,7 @@ public class SharedPrefUtil {
 
     private  static  final String SHARED_APP_PREFERENCE_NAME = "SharedPref" ;
     Context cxt;
-    private SharedPreferences pref;
+    private final SharedPreferences pref;
     private  SharedPreferences.Editor mEditor ;
 
     public SharedPrefUtil(Context context)

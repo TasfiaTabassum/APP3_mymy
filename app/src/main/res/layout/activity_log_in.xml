@@ -62,6 +62,7 @@
         android:inputType="textPassword"
         android:paddingHorizontal="20dp"
         app:endIconMode="password_toggle"
+        app:endIconCheckable="true"
         android:textColor="@color/white"
         android:textColorHint="@color/white"
         android:textSize="18dp">

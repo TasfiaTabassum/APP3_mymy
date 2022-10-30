@@ -32,6 +32,7 @@ public class profile_setting extends AppCompatActivity {
         ActionBar actionBar = getSupportActionBar();
 
         // showing the back button in action bar
+        assert actionBar != null;
         actionBar.setDisplayHomeAsUpEnabled(true);
 
         btnSetPin = findViewById(R.id.setpin);

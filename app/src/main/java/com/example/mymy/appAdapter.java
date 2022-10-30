@@ -78,7 +78,7 @@ public class appAdapter extends RecyclerView.Adapter<appAdapter.adapter_design_b
         return appModels.size();
     }
 
-    public class adapter_design_backend extends RecyclerView.ViewHolder {
+    public static class adapter_design_backend extends RecyclerView.ViewHolder {
 
         TextView appname;
         ImageView appicon , appstatus ;
