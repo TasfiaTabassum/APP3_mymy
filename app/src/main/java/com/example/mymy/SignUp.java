@@ -18,6 +18,7 @@ import android.widget.Toast;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.android.material.textfield.TextInputEditText;
+import com.google.android.material.textfield.TextInputLayout;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
@@ -26,8 +27,8 @@ public class SignUp extends AppCompatActivity {
 
     FirebaseAuth mAuth;
     FirebaseUser user;
-    EditText eTusermail;
-    TextInputEditText eTuserpassword;
+    TextInputLayout eTusermail;
+    TextInputLayout eTuserpassword;
     CheckBox rem;
     Button btn;
 
@@ -58,9 +59,9 @@ public class SignUp extends AppCompatActivity {
 
                     progressDialog.setTitle("Signing Up");;
                     progressDialog.show();
-                    String email = eTusermail.getText().toString().trim();
+                    String email = eTusermail.getEditText().getText().toString().trim();
                     Log.i(TAG, "onClick: " + email);
-                    String pass = eTuserpassword.getText().toString().trim();
+                    String pass = eTuserpassword.getEditText().getText().toString().trim();
                     Log.i(TAG, "onClick: " + pass);
 
                     mAuth.createUserWithEmailAndPassword(email,pass).addOnCompleteListener(

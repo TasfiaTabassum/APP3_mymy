@@ -6,8 +6,8 @@
     <color name="teal_200">#FF03DAC5</color>
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
-    <color name="white">#FFFFFFFF</color>
-    <color name="main_color">#466FF4</color>
+
+    <color name="main_color">#466884</color>
 
     <color name="light_bright_purple_pink">#dc3180</color>
     <color name="bright_purple_pink">#c9226f</color>
@@ -16,9 +16,9 @@
     <color name="colorPrimary">#00796B</color>
     <color name="colorPrimaryDark">#00796B</color>
     <color name="colorAccent">#03DAC5</color>
-    <color name="textColor">#000000</color>
-    <color name ="box_color">#72B6D2</color>
-    <color name ="box_color1">#72B6D2</color>
-    <color name ="box_color2">#FFFFFF</color>
 
+    <color name="textColor">#FFFFFF</color>
+    <color name ="box_color">#000000</color>
+    <color name ="box_color1">#C69085</color>
+    <color name ="box_color2">#000000</color>
 </resources>

@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".timeSlotSettingActivity"
     android:gravity="center"
-    android:background="@drawable/bg"
+    android:background="#F8F3BE"
     >
 
     <Button
@@ -16,7 +16,7 @@
         android:layout_marginTop="2dp"
 
         android:text="Set time slot"
-        android:backgroundTint="@color/bright_purple_pink"
+        android:backgroundTint="@color/black"
         />
 
     <Button
@@ -26,7 +26,7 @@
         android:layout_marginTop="2dp"
         android:layout_below="@+id/settimeslot"
         android:text="Set notification sound"
-        android:backgroundTint="@color/bright_purple_pink"
+        android:backgroundTint="@color/black"
         />
 
     <Button
@@ -37,7 +37,7 @@
         android:layout_below="@+id/setslotnotifsound"
 
         android:text="Show all the time slots"
-        android:backgroundTint="@color/bright_purple_pink"
+        android:backgroundTint="@color/black"
         />
 
 

@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/bg"
+    android:background="#72B6D2"
     tools:context=".logIn">
 
     <TextView
@@ -35,13 +35,14 @@
         android:hint="Email"
         android:paddingHorizontal="20dp"
         app:endIconMode="clear_text"
-        android:textColor="@color/white"
+        android:textColor="@color/black"
         android:textColorHint="@color/white"
         android:textSize="18dp">
 
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
             android:background="#30ffffff"/>
 
     </com.google.android.material.textfield.TextInputLayout>
@@ -59,16 +60,18 @@
         android:drawablePadding="20dp"
         android:drawableTint="@color/white"
         android:hint="Password"
+        app:passwordToggleEnabled="false"
         android:inputType="textPassword"
         android:paddingHorizontal="20dp"
         app:endIconMode="password_toggle"
         app:endIconCheckable="true"
-        android:textColor="@color/white"
+        android:textColor="@color/black"
         android:textColorHint="@color/white"
         android:textSize="18dp">
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:inputType="textPassword"
             android:background="#30ffffff"/>
     </com.google.android.material.textfield.TextInputLayout>
 
@@ -84,7 +87,8 @@
         android:layout_marginBottom="20dp"
         android:onClick="goMainActivity"
         android:text="LOGIN"
-        android:backgroundTint="@color/bright_purple_pink"
+        android:textColor="@color/white"
+        android:backgroundTint="#72B6D2"
         />
 
     <TextView
@@ -129,7 +133,7 @@
             android:layout_marginLeft="15dp"
             android:onClick="goSignUp"
             android:text="Sign Up"
-            android:textColor="@color/light_bright_purple_pink"
+            android:textColor="@color/box_color"
             android:textSize="18dp"
             tools:ignore="TouchTargetSizeCheck" />
 

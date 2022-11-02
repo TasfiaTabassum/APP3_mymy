@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:scrollbars="vertical"
-    android:background="@drawable/bg"
+    android:background="@color/box_color1"
+
     tools:context=".MainActivity">
 
     <androidx.recyclerview.widget.RecyclerView
